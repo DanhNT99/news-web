@@ -1,0 +1,51 @@
+/* ----hover tow icon----- */
+.container .header-icon1:hover {
+    color: #3c3cfa;
+    transition: all .2s;
+}
+.container .header-icon2:hover{
+    color: #dd3333;
+    transition: all .2s;
+
+}
+.b-link:hover .fa-facebook {
+    font-size: 15px;
+    color:#4267b2;
+}
+.b-link:hover .fa-youtube-play{
+    font-size: 15px;
+    color: #dd3333;
+}
+/* ------end---------- */
+/* ----hover button----- */
+.sb-box:hover{
+    background: #dd3333;
+    border: 1px solid #dd3333;
+    transition: all .5s;
+}
+.left-container:hover .lc-a,
+.right-container:hover .rc-a{
+    background: red;
+    transition: all 0.5s;
+}
+/* -----end------- */
+/* ------hover zoom img------ */
+.full-container:hover 
+.img-fullcontainer,
+.left-container:hover 
+.img-leftcontainer,
+.right-container:hover
+.img-rightcontainer{
+  transform: scale(1.1);
+  transition: all .4s;
+}
+/* ----end------- */
+/* ----hover red tag a----- */
+.posts-small:hover .note ,
+.hightlight-small:hover h3,
+.bt-menu li a:hover 
+{
+    color: #dd3333;
+
+}
+/* ------end----- */

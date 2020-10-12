@@ -1,0 +1,34 @@
+@media screen and (max-width: 767px) {
+    .bw-tile1, .bw-tile2 {
+        width: calc( 100% - 40px);
+        margin: 0 auto;
+    }
+    .bw-tile2 {
+        margin-top: 10px;
+    }
+    .bt-menu {
+        display: none;
+    }
+    .in-container {
+        flex-wrap: wrap;
+    }
+    .left-container , .right-container{
+        height: 220px;
+    }
+    .posts {
+        width: calc(100% - 40px);
+        margin: 0 auto;
+        height: 120px;
+    }
+    .posts img {
+        width: 100px;
+        height: 68px;
+    }
+    .Note-in {
+        margin-left: 20px;
+    }
+    .Note-in a {
+        font-size: 13px;
+    }
+
+}

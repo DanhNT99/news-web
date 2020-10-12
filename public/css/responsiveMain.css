@@ -1,0 +1,338 @@
+@media only screen and (max-width: 1365px){
+    .container{
+        max-width: 980px;
+    }
+    .menu_bar-btn {
+        display: none;
+    }
+    .fixed::before, .fixed::after{
+        display: none;
+    }
+    .container1 {
+        max-width: 980px;
+    }
+    .left-container,.right-container {
+        width: 49.5%;
+    }
+    .container2 {
+        max-width: 980px;
+    }
+    .subnav-content {
+        max-width: 985px;
+        left: -380px;
+    }
+    .sc-right .sc-new {
+        width: 22.8%;
+    }
+    .sc-new p {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 1023px){ 
+    .container{
+        max-width: 740px;
+    }
+    .container1 {
+        max-width: 740px;
+    }
+    .container2 {
+        max-width: 740px;
+    }
+    #search-box {
+        right: 20px;
+    }
+    #row {
+        margin-bottom: 82px;
+    }
+    .nav .header-logo {
+        width: 180px;
+    }
+    .menu .menu-iteam {
+        width: 90px;
+    }
+    .menu-iteam:last-child {
+        width: 40px;
+    }
+    .menu-iteam a{
+        font-size: 11px;
+    }
+    .menu-iteam-a1 i{
+        font-size: 12px;
+    }
+    .left-container, .right-container {
+        height: 252px;
+    }
+    .full-container {
+        height: 414px;
+    }
+    .posts-small img {
+        width: 190px;
+        height: 131px;
+        object-fit: cover;
+    }
+    .note a {
+        font-size: 15px;
+    }
+    .hight-cm  a {
+        font-size: 12px;
+        font-weight: normal;
+    }
+    .hightlight-small img  {
+        width: 80px;
+        height: 56px;
+    }
+    .hight-cm {
+        margin-top: 22px;
+    }
+    .cm-date {
+        font-size: 10px;
+    }
+    .rep img {
+        width: 80px;
+        height: 56px;
+    }
+    .re-cm {
+        margin-top: 5px;
+    }
+    .re-cm a {
+        font-size: 10px;
+    }
+    .information .logo-ft {
+        width: 164px;
+        height: 57px;
+    } 
+    .infor2 {
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+    .header-first {
+        display: none;
+    }
+    .header-second {
+        color: #222222;
+    }
+    #row {
+        height: 54px;
+    }
+    .nav {
+        justify-content: space-around;
+    }
+    .nav .menu{
+        display: none;
+    }
+    .header-logo {
+        text-align: center;
+    }
+    .logo {
+        width: 137px;
+        height: 48px;
+    }
+    .menu_bar-btn {
+        display: block;
+    }
+    .menu_bar-btn .icon-bar {
+        color: #ffff;
+        font-size: 30px;
+    }
+    .icon-search {
+        color: #ffff;
+        font-size: 23px !important;
+    }
+    .menu_mobile {
+        display: block;
+        transform: translateX(-100%);
+        transition: transform 0.5s ease-in;
+    }
+    #in-display:checked ~ .menu_mobile {
+        transform: translateX(0);
+    }
+    .nav_seacrh-mobile {
+        display: block;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    #display-search:checked ~ .nav_seacrh-mobile {
+        transform: translateY(0px);
+        transition: transform 0.5s ease-in;
+    }
+    .search_icon-layout {
+        width: 60px;
+        height: 30px;
+        margin: 30px 0px 0px auto;
+    }
+    .search_mobile-title {
+        font-size: 15px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 20px;
+    }
+    .search_form-layout {
+        text-align: center;
+        position: relative;
+        width: calc(100% - 40px);
+        margin: 0 auto;
+    }
+    .seacr_mobile-input {
+        height: 40px;
+        outline: none;
+        background-color: transparent;
+        text-align: center;
+        font-size: 25px;
+        color: #ffffff;
+        margin: 0 auto;
+        border: none;
+        padding-bottom: 20px;
+        margin-top: 20px;
+        border-bottom: 1px solid rgba( 255, 255, 255, 0.3);
+        position: relative;
+    }
+    .search_form-layout::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        left: 0px;
+        bottom: 0px;
+        background-color: #ffffff;
+        transform: scale(0);
+        transition: transform 2s ease-in;
+    }
+    .container1 {
+        width: 100%;
+    }
+    .full-container {
+        height: 225px;
+    }
+    .img-fullcontainer {
+        margin: 0;
+    }
+    .comment {
+        line-height: 20px;
+    }
+    .title {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .time {
+        font-size: 10px;
+        color: #430404;
+    }
+    .container-two {
+        flex-wrap: wrap;
+    }
+    .left-container {
+        width: 100%;
+        height: 187px;
+    }
+    .right-container{
+        width: 100%;
+        height: 187px;
+        left: 0px;
+    }
+    #otherPosts1 {
+        margin-bottom: 180px;
+    }
+    .container2 {
+        flex-wrap: wrap;
+        width: 100%;
+        border-top: 0px;
+    }
+    .Posts {
+        width: 100%;
+    }
+    .posts-small {
+        width: calc(100% - 40px);
+        height: 96px;
+        margin: 20px auto;
+    }
+    .posts-small img {
+        width: 100px;
+        height: 68px;
+    }
+    .note a {
+        font-size: 12px;
+    }
+    .comment-long {
+        display: none;
+    }
+    .Hightlight {
+        width: calc(100% - 40px);
+        margin: 0 auto;
+    }
+    .hightlight-small img {
+        width: 100px;
+        height: 70px;
+        transform: translateY(50%);
+    }
+    .hight-cm {
+      margin-top: 31px;
+    }
+    .hight-cm a {
+        font-size: 15px;
+    }
+    .post-synthetic {
+        flex-wrap: wrap;
+    }
+    .post-synthetic::after {
+        top: 100%;
+    }
+    .representative {
+        width: calc(100% - 40px);
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .rep img {
+        width: 100px;
+        height: 70px;
+    }
+    .re-cm a {
+        font-size: 13px;
+    }
+    .cm-date {
+        font-size: 11px;
+    }
+    .popular {
+        width: calc(100% - 40px);
+        margin: 0 auto;
+    }
+    .watchALot {
+        width:  calc( 100% - 40px);
+        margin: 40px auto;
+    }
+    .watchALot table {
+        margin-top: 0px;
+    }
+    .information {
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+    .containt-img {
+        width: 100%;
+        text-align: center;
+    }
+    .containt-img .logo-ft {
+        width: 234px;
+        height: 82px;
+    }
+    .infor1 {
+        width: 100%;
+        text-align: center;
+        margin: 40px 0px 0px 0px;
+    }
+    .infor2 {
+        width: 100%;
+        text-align: center;
+        margin: 40px 0px 0px 0px;
+    }
+    .tow-bt {
+        justify-content: center;
+    }
+   
+}
+
+
